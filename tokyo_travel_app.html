@@ -1,0 +1,1530 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>상명대 실디과 11학번 도쿄 여행</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Pretendard Font -->
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Pretendard', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'Roboto', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              black: '#111827',
+              charcoal: '#1F2937',
+              slate: '#4B5563',
+              border: '#E5E7EB',
+              accent: '#3B82F6',
+              accentDark: '#1D4ED8',
+              orange: '#F97316',
+              bgLight: '#F8FAFC'
+            }
+          },
+          boxShadow: {
+            'soft': '0 10px 30px -5px rgba(0, 0, 0, 0.05)',
+            'card': '0 4px 16px rgba(0, 0, 0, 0.04)',
+            'bottom-nav': '0 -4px 25px rgba(0, 0, 0, 0.05)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Custom Scrollbars and Micro-Interactions */
+    ::-webkit-scrollbar {
+      display: none;
+    }
+    * {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+  </style>
+</head>
+<body class="bg-[#EEF1F6] text-slate-800 antialiased flex justify-center items-start min-h-screen p-0 sm:py-6 sm:px-4 font-sans selection:bg-slate-900 selection:text-white">
+
+  <!-- Mobile App Frame Container -->
+  <main class="w-full max-w-[440px] bg-white sm:rounded-[36px] shadow-2xl flex flex-col min-h-screen sm:min-h-[880px] overflow-hidden relative border border-slate-200">
+
+    <!-- TOP APP HEADER -->
+    <header class="relative bg-white pt-6 pb-4 px-6 border-b border-slate-100 z-20">
+      <div class="flex items-center justify-between mb-2.5">
+        <div class="flex items-center gap-2">
+          <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-bold tracking-tight bg-slate-900 text-white shadow-xs">
+            상명대 실디과 11학번
+          </span>
+          <span class="text-xs font-semibold px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 border border-slate-200">
+            <i class="fa-solid fa-user-group text-[10px] mr-1"></i>5인 투어
+          </span>
+        </div>
+        <div class="text-[11px] font-bold text-slate-500 bg-slate-50 px-2.5 py-1 rounded-full border border-slate-100">
+          3박 4일 in 도쿄 🗼
+        </div>
+      </div>
+
+      <div class="flex items-end justify-between">
+        <div>
+          <h1 class="text-xl font-black tracking-tight text-slate-900 leading-snug">
+            할미들의 일본 도쿄 여행 👵🏻
+          </h1>
+          <p class="text-[12px] font-semibold text-slate-500 mt-0.5 flex items-center gap-1.5">
+            <i class="fa-regular fa-calendar text-slate-400"></i>
+            11월 28일(토) ~ 12월 1일(화)
+          </p>
+        </div>
+
+        <!-- Google Map Master List Quick Link Button -->
+        <a href="https://maps.app.goo.gl/9Y8iN2gja2BeNZgK6" target="_blank" rel="noopener noreferrer"
+           class="flex items-center gap-1.5 bg-blue-50 hover:bg-blue-100 active:scale-95 text-blue-700 px-3 py-2 rounded-2xl border border-blue-200 text-xs font-bold transition-all shadow-xs group">
+          <i class="fa-solid fa-map-location-dot text-blue-600 group-hover:scale-110 transition-transform"></i>
+          <span>우리 도쿄 지도 💃🏻</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- CONTENT BODY - SCROLLABLE AREA -->
+    <div class="flex-1 overflow-y-auto pb-28 pt-4 px-4 bg-[#F8FAFC]">
+
+      <!-- ============================================== -->
+      <!-- TAB 1: 이동 (TRANSPORT & ROUTES) -->
+      <!-- ============================================== -->
+      <section id="tab-transit" class="space-y-4">
+        
+        <!-- Day 1 Transit Banner -->
+        <div class="flex items-center justify-between pt-1">
+          <h2 class="text-sm font-black text-slate-900 flex items-center gap-2">
+            <span class="w-6 h-6 rounded-lg bg-slate-900 text-white flex items-center justify-center text-xs shadow-xs font-bold">1</span>
+            11월 28일 (토) 이동 일정
+          </h2>
+          <span class="text-[11px] font-bold px-2 py-0.5 rounded-full bg-slate-200 text-slate-700">DAY 1</span>
+        </div>
+
+        <!-- 1. Flight Departure Card -->
+        <div class="bg-white rounded-2xl p-4 shadow-card border border-slate-100">
+          <div class="flex items-center justify-between pb-3 border-b border-slate-100">
+            <div class="flex items-center gap-2.5">
+              <span class="w-8 h-8 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center text-sm font-bold">
+                <i class="fa-solid fa-plane-departure"></i>
+              </span>
+              <div>
+                <div class="text-xs font-black text-slate-900">인천(ICN) ➔ 도쿄/나리타(NRT)</div>
+                <div class="text-[11px] text-slate-400 font-medium">아시아나항공 OZ102</div>
+              </div>
+            </div>
+            <span class="text-xs font-black px-2.5 py-1 rounded-xl bg-[#FFE4EC] text-[#E11D6F] border border-[#FFC7D8]">
+              09:00 - 11:20 (2h 20m)
+            </span>
+          </div>
+
+          <div class="grid grid-cols-2 gap-3 mt-3 text-xs">
+            <div class="bg-slate-50 p-2.5 rounded-xl border border-slate-100">
+              <span class="text-[10px] text-slate-400 block font-medium">출발 터미널</span>
+              <p class="font-bold text-slate-800 mt-0.5">인천공항 제2터미널</p>
+              <p class="text-[10px] text-slate-400">07:00까지 집결 권장</p>
+            </div>
+            <div class="bg-slate-50 p-2.5 rounded-xl border border-slate-100">
+              <span class="text-[10px] text-slate-400 block font-medium">도착 터미널</span>
+              <p class="font-bold text-slate-800 mt-0.5">나리타 제1터미널</p>
+              <p class="text-[10px] text-slate-400">입국 수속 및 스카이라이너 발권</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Airport to Airbnb Detailed Route -->
+        <div class="bg-white rounded-2xl p-4 shadow-card border border-slate-100 relative overflow-hidden">
+          <div class="flex items-center justify-between mb-3.5">
+            <div class="flex items-center gap-2">
+              <span class="w-8 h-8 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center text-sm">
+                <i class="fa-solid fa-route"></i>
+              </span>
+              <div>
+                <span class="text-xs font-black text-slate-900 block">나리타 공항 제1터미널 ➔ 에어비앤비</span>
+              </div>
+            </div>
+            <a href="https://maps.app.goo.gl/nejxLjgMezgSNgLL7" target="_blank" rel="noopener noreferrer" 
+               class="text-[11px] font-bold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-xl hover:bg-blue-100 transition-colors flex items-center gap-1 border border-blue-100">
+              <span>구글맵 경로</span>
+              <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+            </a>
+          </div>
+
+          <!-- Step By Step Route Timeline -->
+          <div class="relative pl-6 space-y-4 before:absolute before:left-2.5 before:top-2 before:bottom-3 before:w-0.5 before:bg-slate-200">
+            <!-- Step 1 -->
+            <div class="relative">
+              <div class="absolute -left-6 top-0 w-5 h-5 rounded-full bg-slate-900 border-2 border-white flex items-center justify-center text-[10px] text-white font-black shadow-xs">
+                1
+              </div>
+              <div>
+                <div class="flex items-center justify-between">
+                  <h4 class="text-xs font-bold text-slate-900">나리타공항 제1터미널 승차</h4>
+                  <span class="text-[10px] bg-blue-100 text-blue-800 font-extrabold px-1.5 py-0.5 rounded-md">스카이라이너</span>
+                </div>
+                <p class="text-[11px] text-slate-500 mt-0.5">케이세이 스카이라이너 특급 탑승 (약 36분 소요, 닛포리역까지 직통)</p>
+              </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="relative">
+              <div class="absolute -left-6 top-0 w-5 h-5 rounded-full bg-slate-900 border-2 border-white flex items-center justify-center text-[10px] text-white font-black shadow-xs">
+                2
+              </div>
+              <div>
+                <div class="flex items-center justify-between">
+                  <h4 class="text-xs font-bold text-slate-900">닛포리역 환승</h4>
+                  <span class="text-[10px] bg-[#E2ECD5] text-[#3D5A20] font-extrabold px-1.5 py-0.5 rounded-md border border-[#C3D9AA]">JR 야마노테선</span>
+                </div>
+                <p class="text-[11px] text-slate-500 mt-0.5">JR 야마노테선(외선순환 도쿄/시나가와 방면) 탑승 후 다마치역 이동 (약 20분)</p>
+              </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="relative">
+              <div class="absolute -left-6 top-0 w-5 h-5 rounded-full bg-slate-900 border-2 border-white flex items-center justify-center text-[10px] text-white font-black shadow-xs">
+                3
+              </div>
+              <div>
+                <div class="flex items-center justify-between">
+                  <h4 class="text-xs font-bold text-slate-900">다마치역(田町駅) 하차 및 도보 이동</h4>
+                  <span class="text-[10px] bg-slate-100 text-slate-700 font-bold px-1.5 py-0.5 rounded-md">도보 10분</span>
+                </div>
+                <p class="text-[11px] text-slate-500 mt-0.5">미타 출구 방면으로 이동 후 캐리어 끌고 숙소로 이동</p>
+              </div>
+            </div>
+
+            <!-- Step 4 Destination -->
+            <div class="relative pt-1">
+              <div class="absolute -left-6 top-1 w-5 h-5 rounded-full bg-rose-600 border-2 border-white flex items-center justify-center text-[9px] text-white font-bold shadow-xs">
+                <i class="fa-solid fa-house text-[8px]"></i>
+              </div>
+              <div class="p-3 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-between">
+                <div>
+                  <span class="text-[10px] font-bold text-rose-600 block">도착지</span>
+                  <div class="text-xs font-bold text-slate-900">도쿄 에어비앤비 숙소</div>
+                </div>
+                <a href="https://maps.app.goo.gl/q5REo7CQrTeN2mVj8" target="_blank" rel="noopener noreferrer" 
+                   class="text-[11px] font-bold bg-white text-slate-800 px-2.5 py-1.5 rounded-lg border border-slate-200 shadow-xs flex items-center gap-1.5 hover:bg-slate-100">
+                  <i class="fa-solid fa-map-pin text-rose-500"></i> 숙소 구글맵
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 4 Transit Banner -->
+        <div class="flex items-center justify-between pt-3">
+          <h2 class="text-sm font-black text-slate-900 flex items-center gap-2">
+            <span class="w-6 h-6 rounded-lg bg-slate-900 text-white flex items-center justify-center text-xs shadow-xs font-bold">4</span>
+            12월 1일 (화) 이동 일정
+          </h2>
+          <span class="text-[11px] font-bold px-2 py-0.5 rounded-full bg-slate-200 text-slate-700">DAY 4</span>
+        </div>
+
+        <!-- 3. Return to Airport Route -->
+        <div class="bg-white rounded-2xl p-4 shadow-card border border-slate-100">
+          <div class="flex items-center justify-between mb-3 pb-2 border-b border-slate-100">
+            <div class="flex items-center gap-2.5">
+              <span class="w-8 h-8 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center text-sm font-bold">
+                <i class="fa-solid fa-train"></i>
+              </span>
+              <div>
+                <span class="text-xs font-bold text-slate-900">도쿄역 ➔ 나리타 공항 제1터미널</span>
+                <span class="text-[10px] text-slate-400 block font-normal">나리타 익스프레스 (N'EX)</span>
+              </div>
+            </div>
+            <a href="https://maps.app.goo.gl/8P53sRRM43cWSiQv7" target="_blank" rel="noopener noreferrer"
+               class="text-[11px] font-bold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-xl hover:bg-blue-100 transition-colors flex items-center gap-1 border border-blue-100">
+              <span>구글맵 경로</span>
+              <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+            </a>
+          </div>
+
+          <div class="space-y-2 text-xs text-slate-600">
+            <div class="flex items-start gap-2 bg-slate-50 p-2.5 rounded-xl border border-slate-100">
+              <span class="font-bold text-slate-900 min-w-16">탑승 경로</span>
+              <span>긴자에서 도쿄역 이동 후 지하 총무선 승강장에서 <strong>N'EX(나리타 익스프레스)</strong> 직통 탑승</span>
+            </div>
+            <div class="flex items-start gap-2 bg-slate-50 p-2.5 rounded-xl border border-slate-100">
+              <span class="font-bold text-slate-900 min-w-16">소요 시간</span>
+              <span>약 53분 소요 (전 좌석 지정석 / 쾌적한 짐 보관)</span>
+            </div>
+            <div class="flex items-start gap-2 bg-rose-50/70 p-2.5 rounded-xl border border-rose-100 text-rose-800">
+              <span class="font-black text-rose-600 min-w-16">주의</span>
+              <span>비행기 출발 19:35이므로 늦어도 17:00까지는 나리타 제1터미널에 도착해야 합니다!</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Flight Return Card -->
+        <div class="bg-white rounded-2xl p-4 shadow-card border border-slate-100">
+          <div class="flex items-center justify-between pb-3 border-b border-slate-100">
+            <div class="flex items-center gap-2.5">
+              <span class="w-8 h-8 rounded-xl bg-slate-100 text-slate-700 flex items-center justify-center text-sm font-bold">
+                <i class="fa-solid fa-plane-arrival"></i>
+              </span>
+              <div>
+                <div class="text-xs font-black text-slate-900">도쿄/나리타(NRT) ➔ 인천(ICN)</div>
+                <div class="text-[11px] text-slate-400 font-medium">아시아나항공 OZ105</div>
+              </div>
+            </div>
+            <span class="text-xs font-black px-2.5 py-1 rounded-xl bg-[#FFE4EC] text-[#E11D6F] border border-[#FFC7D8]">
+              19:35 - 22:15 (2h 40m)
+            </span>
+          </div>
+
+          <div class="grid grid-cols-2 gap-3 mt-3 text-xs">
+            <div class="bg-slate-50 p-2.5 rounded-xl border border-slate-100">
+              <span class="text-[10px] text-slate-400 block font-medium">출발 터미널</span>
+              <p class="font-bold text-slate-800 mt-0.5">나리타 제1터미널</p>
+              <p class="text-[10px] text-slate-400">면세점 쇼핑 & 출국 심사</p>
+            </div>
+            <div class="bg-slate-50 p-2.5 rounded-xl border border-slate-100">
+              <span class="text-[10px] text-slate-400 block font-medium">도착 터미널</span>
+              <p class="font-bold text-slate-800 mt-0.5">인천공항 제2터미널</p>
+              <p class="text-[10px] text-slate-400">짐 수령 후 안전 귀가!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================== -->
+      <!-- TAB 2: 일정 (ITINERARY SCHEDULE) -->
+      <!-- ============================================== -->
+      <section id="tab-schedule" class="hidden space-y-4">
+        
+        <!-- Day Selector Pill Horizontal Scroll -->
+        <div class="flex items-center gap-2 overflow-x-auto pb-1 -mx-1 px-1">
+          <button onclick="selectDay(1)" id="day-pill-1" class="day-pill flex-1 py-2 px-3 rounded-2xl font-black text-xs whitespace-nowrap bg-slate-900 text-white shadow-sm transition-all">
+            1일차 · 11/28 (토)
+          </button>
+          <button onclick="selectDay(2)" id="day-pill-2" class="day-pill flex-1 py-2 px-3 rounded-2xl font-semibold text-xs whitespace-nowrap bg-white text-slate-500 border border-slate-200 hover:bg-slate-50 transition-all">
+            2일차 · 11/29 (일)
+          </button>
+          <button onclick="selectDay(3)" id="day-pill-3" class="day-pill flex-1 py-2 px-3 rounded-2xl font-semibold text-xs whitespace-nowrap bg-white text-slate-500 border border-slate-200 hover:bg-slate-50 transition-all">
+            3일차 · 11/30 (월)
+          </button>
+          <button onclick="selectDay(4)" id="day-pill-4" class="day-pill flex-1 py-2 px-3 rounded-2xl font-semibold text-xs whitespace-nowrap bg-white text-slate-500 border border-slate-200 hover:bg-slate-50 transition-all">
+            4일차 · 12/01 (화)
+          </button>
+        </div>
+
+        <!-- DAY 1 CONTAINER -->
+        <div id="day-content-1" class="day-content space-y-3">
+          <!-- Item 1: Azabudai Hills -->
+          <div class="schedule-card bg-white rounded-2xl p-4 shadow-card border border-slate-100 flex items-start gap-3.5 transition-all">
+            <div class="flex flex-col items-center">
+              <span class="text-xs font-black text-slate-900 bg-slate-100 px-2.5 py-1 rounded-xl">16:00</span>
+              <div class="w-0.5 h-16 bg-slate-100 mt-2"></div>
+            </div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <button type="button" onclick="toggleScheduleCheck(this)" class="check-btn w-5 h-5 rounded-md border-2 border-slate-300 flex items-center justify-center text-white transition-all hover:border-slate-500 focus:outline-none" aria-label="일정 완료 체크">
+                    <i class="fa-solid fa-check text-[10px] hidden"></i>
+                  </button>
+                  <h3 class="schedule-title text-sm font-extrabold text-slate-900">아자부다이 힐즈</h3>
+                </div>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-100 text-slate-700">쇼핑</span>
+              </div>
+              <p class="text-xs text-slate-500 mt-1">도쿄의 최신 랜드마크! 감각적인 건축과 디자인 숍, 라이프스타일 브랜드 투어</p>
+              
+              <!-- 운영시간 상세 정보 -->
+              <div class="mt-2.5 bg-slate-50 p-2.5 rounded-xl border border-slate-100 text-[11px] space-y-1 text-slate-600 font-medium">
+                <div class="flex items-center justify-between">
+                  <span class="text-slate-500">🍽️ 식당</span>
+                  <span class="font-bold text-slate-800">11:00 ~ 23:00</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span class="text-slate-500">🛍️ 상점</span>
+                  <span class="font-bold text-slate-800">11:00 ~ 20:00</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span class="text-slate-500">🛒 마켓</span>
+                  <span class="font-bold text-slate-800">10:00 ~ 20:00</span>
+                </div>
+              </div>
+
+              <div class="mt-3 flex items-center justify-between">
+                <span class="text-[10px] text-slate-400">
+                  <i class="fa-solid fa-location-dot text-slate-400 mr-1"></i>미나토구 아자부다이
+                </span>
+                <a href="https://maps.google.com/?cid=4583000254307789249" target="_blank" rel="noopener noreferrer"
+                   class="text-[11px] font-bold text-blue-600 bg-blue-50 hover:bg-blue-100 px-2.5 py-1 rounded-lg border border-blue-100 flex items-center gap-1 transition-colors">
+                  <i class="fa-solid fa-map-location-dot text-[10px]"></i> 구글맵 보기
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Jomon Roppongi -->
+          <div class="schedule-card bg-white rounded-2xl p-4 shadow-card border border-slate-100 flex items-start gap-3.5 transition-all">
+            <div class="flex flex-col items-center">
+              <span class="text-xs font-black text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-xl">19:00</span>
+            </div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <button type="button" onclick="toggleScheduleCheck(this)" class="check-btn w-5 h-5 rounded-md border-2 border-slate-300 flex items-center justify-center text-white transition-all hover:border-slate-500 focus:outline-none" aria-label="일정 완료 체크">
+                    <i class="fa-solid fa-check text-[10px] hidden"></i>
+                  </button>
+                  <h3 class="schedule-title text-sm font-extrabold text-slate-900">죠몬 롯폰기점</h3>
+                </div>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800">식사</span>
+              </div>
+              <p class="text-xs text-slate-500 mt-1">유명 하카타 야키토리 전문점. 첫날 밤 맛있는 꼬치와 시원한 나마비루 한 잔 🍢</p>
+              
+              <div class="mt-3 flex items-center justify-between">
+                <span class="text-[10px] text-slate-400">
+                  <i class="fa-solid fa-location-dot text-slate-400 mr-1"></i>미나토구 롯폰기
+                </span>
+                <a href="https://maps.google.com/?cid=5986398684437807624" target="_blank" rel="noopener noreferrer"
+                   class="text-[11px] font-bold text-blue-600 bg-blue-50 hover:bg-blue-100 px-2.5 py-1 rounded-lg border border-blue-100 flex items-center gap-1 transition-colors">
+                  <i class="fa-solid fa-map-location-dot text-[10px]"></i> 구글맵 보기
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 1일차 동선 근방 추천 식당 (아자부다이/롯폰기) -->
+          <div class="bg-slate-100/90 rounded-2xl p-3.5 border border-slate-200 space-y-2 mt-4">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-black text-slate-800 flex items-center gap-1.5">
+                <i class="fa-solid fa-utensils text-blue-600"></i> 1일차 추천 식당 (5선)
+              </span>
+              <button onclick="refreshRecommendations(1, 'food')" class="refresh-btn flex items-center gap-1 text-[11px] font-bold text-slate-600 bg-white hover:bg-slate-50 active:scale-95 px-2 py-1 rounded-lg border border-slate-200 transition-all shadow-2xs">
+                <i class="fa-solid fa-rotate text-[10px] text-blue-600 transition-transform"></i>
+                <span>새로고침</span>
+              </button>
+            </div>
+            <!-- 고정 높이 스크롤 영역 -->
+            <div id="rec-food-1" class="max-h-[210px] overflow-y-auto space-y-1.5 pr-1">
+              <!-- JS Generated -->
+            </div>
+          </div>
+
+          <!-- 1일차 동선 근방 추천 카페 (아자부다이/롯폰기) -->
+          <div class="bg-amber-50/70 rounded-2xl p-3.5 border border-amber-200/80 space-y-2 mt-2">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-black text-amber-900 flex items-center gap-1.5">
+                <i class="fa-solid fa-mug-saucer text-amber-600"></i> 1일차 추천 카페 (5선)
+              </span>
+              <button onclick="refreshRecommendations(1, 'cafe')" class="refresh-btn flex items-center gap-1 text-[11px] font-bold text-amber-900 bg-white hover:bg-amber-50 active:scale-95 px-2 py-1 rounded-lg border border-amber-200 transition-all shadow-2xs">
+                <i class="fa-solid fa-rotate text-[10px] text-amber-600 transition-transform"></i>
+                <span>새로고침</span>
+              </button>
+            </div>
+            <!-- 고정 높이 스크롤 영역 -->
+            <div id="rec-cafe-1" class="max-h-[210px] overflow-y-auto space-y-1.5 pr-1">
+              <!-- JS Generated -->
+            </div>
+          </div>
+        </div>
+
+        <!-- DAY 2 CONTAINER -->
+        <div id="day-content-2" class="day-content hidden space-y-3">
+          <!-- Item 1: Meiji Jingu Museum -->
+          <div class="schedule-card bg-white rounded-2xl p-3.5 shadow-card border border-slate-100 flex items-start gap-3 transition-all">
+            <div class="text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-xl min-w-16 text-center">오전 미정</div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <button type="button" onclick="toggleScheduleCheck(this)" class="check-btn w-5 h-5 rounded-md border-2 border-slate-300 flex items-center justify-center text-white transition-all hover:border-slate-500 focus:outline-none" aria-label="일정 완료 체크">
+                    <i class="fa-solid fa-check text-[10px] hidden"></i>
+                  </button>
+                  <h3 class="schedule-title text-sm font-extrabold text-slate-900">메이지 신궁 뮤지엄</h3>
+                </div>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-blue-100 text-blue-800">전시</span>
+              </div>
+              <p class="text-xs text-slate-500 mt-1">쿠마 켄고 건축 설계. 숲과 조화를 이루는 모던한 미술관</p>
+              <div class="mt-2.5 flex items-center justify-between">
+                <span class="text-[10px] text-slate-400 bg-slate-50 px-2 py-0.5 rounded font-medium">운영: 10:00 ~ 16:30</span>
+                <a href="https://maps.google.com/?cid=11834489167905121676" target="_blank" rel="noopener noreferrer"
+                   class="text-[11px] font-bold text-blue-600 bg-blue-50 hover:bg-blue-100 px-2 py-1 rounded-lg border border-blue-100 flex items-center gap-1">
+                  <i class="fa-solid fa-map-location-dot text-[10px]"></i> 구글맵
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Lunch TBD -->
+          <div class="schedule-card bg-white rounded-2xl p-3.5 shadow-card border border-dashed border-amber-200 bg-amber-50/20 flex items-start gap-3 transition-all">
+            <div class="text-xs font-bold text-amber-700 bg-amber-100/70 px-2.5 py-1 rounded-xl min-w-16 text-center">12:00</div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <button type="button" onclick="toggleScheduleCheck(this)" class="check-btn w-5 h-5 rounded-md border-2 border-slate-300 flex items-center justify-center text-white transition-all hover:border-slate-500 focus:outline-none" aria-label="일정 완료 체크">
+                    <i class="fa-solid fa-check text-[10px] hidden"></i>
+                  </button>
+                  <h3 class="schedule-title text-sm font-bold text-slate-800">점심 식당 (미정)</h3>
+                </div>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800">식사</span>
+              </div>
+              <p class="text-xs text-slate-500 mt-1">하라주쿠 / 오모테산도 인근에서 후보군 탐색 후 방문 (하단 추천 식당 참고)</p>
+            </div>
+          </div>
+
+          <!-- Item 3: Nezu Museum -->
+          <div class="schedule-card bg-white rounded-2xl p-3.5 shadow-card border border-slate-100 flex items-start gap-3 transition-all">
+            <div class="text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-xl min-w-16 text-center">오후 미정</div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <button type="button" onclick="toggleScheduleCheck(this)" class="check-btn w-5 h-5 rounded-md border-2 border-slate-300 flex items-center justify-center text-white transition-all hover:border-slate-500 focus:outline-none" aria-label="일정 완료 체크">
+                    <i class="fa-solid fa-check text-[10px] hidden"></i>
+                  </button>
+                  <h3 class="schedule-title text-sm font-extrabold text-slate-900">네즈 미술관</h3>
+                </div>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-blue-100 text-blue-800">전시</span>
+              </div>
+              <p class="text-xs text-slate-500 mt-1">전통 일본 정원과 현대 건축의 조화. 쿠마 켄고 설계 대표작</p>
+              <div class="mt-2.5 flex items-center justify-between">
+                <span class="text-[10px] text-slate-400 bg-slate-50 px-2 py-0.5 rounded font-medium">운영: 10:00 ~ 17:00</span>
+                <a href="https://maps.google.com/?cid=15044873861634050844" target="_blank" rel="noopener noreferrer"
+                   class="text-[11px] font-bold text-blue-600 bg-blue-50 hover:bg-blue-100 px-2 py-1 rounded-lg border border-blue-100 flex items-center gap-1">
+                  <i class="fa-solid fa-map-location-dot text-[10px]"></i> 구글맵
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4: Nezu Cafe -->
+          <div class="schedule-card bg-white rounded-2xl p-3.5 shadow-card border border-slate-100 flex items-start gap-3 transition-all">
+            <div class="text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-xl min-w-16 text-center">오후 미정</div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <button type="button" onclick="toggleScheduleCheck(this)" class="check-btn w-5 h-5 rounded-md border-2 border-slate-300 flex items-center justify-center text-white transition-all hover:border-slate-500 focus:outline-none" aria-label="일정 완료 체크">
+                    <i class="fa-solid fa-check text-[10px] hidden"></i>
+                  </button>
+                  <h3 class="schedule-title text-sm font-extrabold text-slate-900">네즈 카페 (NEZU CAFÉ)</h3>
+                </div>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-100 text-amber-800">카페</span>
+              </div>
+              <p class="text-xs text-slate-500 mt-1">미술관 안 통유리창으로 사계절 정원을 감상하며 즐기는 티 타임</p>
+              <div class="mt-2.5 flex items-center justify-between">
+                <span class="text-[10px] text-slate-400">
+                  <i class="fa-solid fa-location-dot text-slate-400 mr-1"></i>미나미아오야마 (네즈 미술관 내)
+                </span>
+                <a href="https://maps.google.com/?cid=3302356202518170953" target="_blank" rel="noopener noreferrer"
+                   class="text-[11px] font-bold text-blue-600 bg-blue-50 hover:bg-blue-100 px-2 py-1 rounded-lg border border-blue-100 flex items-center gap-1">
+                  <i class="fa-solid fa-map-location-dot text-[10px]"></i> 구글맵
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 5: Arts & Science (Updated Map Link) -->
+          <div class="schedule-card bg-white rounded-2xl p-3.5 shadow-card border border-slate-100 flex items-start gap-3 transition-all">
+            <div class="text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-xl min-w-16 text-center">오후 미정</div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <button type="button" onclick="toggleScheduleCheck(this)" class="check-btn w-5 h-5 rounded-md border-2 border-slate-300 flex items-center justify-center text-white transition-all hover:border-slate-500 focus:outline-none" aria-label="일정 완료 체크">
+                    <i class="fa-solid fa-check text-[10px] hidden"></i>
+                  </button>
+                  <h3 class="schedule-title text-sm font-extrabold text-slate-900">아트 앤 사이언스 (Arts & Science)</h3>
+                </div>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-100 text-slate-800">쇼핑</span>
+              </div>
+              <p class="text-xs text-slate-500 mt-1">소냐 파크의 절제된 미학이 담긴 의류 및 라이프스타일 셀렉트숍</p>
+              <div class="mt-2.5 flex items-center justify-between">
+                <span class="text-[10px] text-slate-400">
+                  <i class="fa-solid fa-location-dot text-slate-400 mr-1"></i>미나미아오야마
+                </span>
+                <a href="https://maps.app.goo.gl/agc9wVZ4CtNMbRqt8" target="_blank" rel="noopener noreferrer"
+                   class="text-[11px] font-bold text-blue-600 bg-blue-50 hover:bg-blue-100 px-2 py-1 rounded-lg border border-blue-100 flex items-center gap-1">
+                  <i class="fa-solid fa-map-location-dot text-[10px]"></i> 구글맵
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 6: Auralee -->
+          <div class="schedule-card bg-white rounded-2xl p-3.5 shadow-card border border-slate-100 flex items-start gap-3 transition-all">
+            <div class="text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-xl min-w-16 text-center">오후 미정</div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <button type="button" onclick="toggleScheduleCheck(this)" class="check-btn w-5 h-5 rounded-md border-2 border-slate-300 flex items-center justify-center text-white transition-all hover:border-slate-500 focus:outline-none" aria-label="일정 완료 체크">
+                    <i class="fa-solid fa-check text-[10px] hidden"></i>
+                  </button>
+                  <h3 class="schedule-title text-sm font-extrabold text-slate-900">오라리 도쿄 (AURALEE TOKYO)</h3>
+                </div>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-100 text-slate-800">쇼핑</span>
+              </div>
+              <p class="text-xs text-slate-500 mt-1">고급 패브릭과 완벽한 실루엣을 자랑하는 오라리 플래그십 스토어</p>
+              <div class="mt-2.5 flex items-center justify-between">
+                <span class="text-[10px] text-slate-400">
+                  <i class="fa-solid fa-location-dot text-slate-400 mr-1"></i>미나미아오야마
+                </span>
+                <a href="https://maps.google.com/?cid=8431304775675655345" target="_blank" rel="noopener noreferrer"
+                   class="text-[11px] font-bold text-blue-600 bg-blue-50 hover:bg-blue-100 px-2 py-1 rounded-lg border border-blue-100 flex items-center gap-1">
+                  <i class="fa-solid fa-map-location-dot text-[10px]"></i> 구글맵
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 7: Karimoku -->
+          <div class="schedule-card bg-white rounded-2xl p-3.5 shadow-card border border-slate-100 flex items-start gap-3 transition-all">
+            <div class="text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-xl min-w-16 text-center">오후 미정</div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <button type="button" onclick="toggleScheduleCheck(this)" class="check-btn w-5 h-5 rounded-md border-2 border-slate-300 flex items-center justify-center text-white transition-all hover:border-slate-500 focus:outline-none" aria-label="일정 완료 체크">
+                    <i class="fa-solid fa-check text-[10px] hidden"></i>
+                  </button>
+                  <h3 class="schedule-title text-sm font-extrabold text-slate-900">가리모쿠 리서치 센터</h3>
+                </div>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-100 text-slate-800">쇼핑</span>
+              </div>
+              <p class="text-xs text-slate-500 mt-1">실디과 필수 견학! 일본 대표 원목가구 브랜드 가리모쿠의 연구 쇼룸</p>
+              <div class="mt-2.5 flex items-center justify-between">
+                <span class="text-[10px] text-slate-400">
+                  <i class="fa-solid fa-location-dot text-slate-400 mr-1"></i>니시아자부
+                </span>
+                <a href="https://maps.google.com/?cid=9402372618179599575" target="_blank" rel="noopener noreferrer"
+                   class="text-[11px] font-bold text-blue-600 bg-blue-50 hover:bg-blue-100 px-2 py-1 rounded-lg border border-blue-100 flex items-center gap-1">
+                  <i class="fa-solid fa-map-location-dot text-[10px]"></i> 구글맵
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Added Item: Kaptain Sunshine Aoyama -->
+          <div class="schedule-card bg-white rounded-2xl p-3.5 shadow-card border border-slate-100 flex items-start gap-3 transition-all">
+            <div class="text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-xl min-w-16 text-center">오후 미정</div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <button type="button" onclick="toggleScheduleCheck(this)" class="check-btn w-5 h-5 rounded-md border-2 border-slate-300 flex items-center justify-center text-white transition-all hover:border-slate-500 focus:outline-none" aria-label="일정 완료 체크">
+                    <i class="fa-solid fa-check text-[10px] hidden"></i>
+                  </button>
+                  <h3 class="schedule-title text-sm font-extrabold text-slate-900">캡틴 선샤인 아오야마</h3>
+                </div>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-100 text-slate-800">쇼핑</span>
+              </div>
+              <p class="text-xs text-slate-500 mt-1">밀리터리 및 클래식 아메리칸 캐주얼을 현대적으로 재해석한 브랜드 스토어</p>
+              <div class="mt-2.5 flex items-center justify-between">
+                <span class="text-[10px] text-slate-400">
+                  <i class="fa-solid fa-location-dot text-slate-400 mr-1"></i>미나미아오야마
+                </span>
+                <a href="https://maps.app.goo.gl/vmSeoTF38s7NSHN68" target="_blank" rel="noopener noreferrer"
+                   class="text-[11px] font-bold text-blue-600 bg-blue-50 hover:bg-blue-100 px-2 py-1 rounded-lg border border-blue-100 flex items-center gap-1">
+                  <i class="fa-solid fa-map-location-dot text-[10px]"></i> 구글맵
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Added Item: Comme des Garcons Aoyama -->
+          <div class="schedule-card bg-white rounded-2xl p-3.5 shadow-card border border-slate-100 flex items-start gap-3 transition-all">
+            <div class="text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-xl min-w-16 text-center">오후 미정</div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <button type="button" onclick="toggleScheduleCheck(this)" class="check-btn w-5 h-5 rounded-md border-2 border-slate-300 flex items-center justify-center text-white transition-all hover:border-slate-500 focus:outline-none" aria-label="일정 완료 체크">
+                    <i class="fa-solid fa-check text-[10px] hidden"></i>
+                  </button>
+                  <h3 class="schedule-title text-sm font-extrabold text-slate-900">꼼데가르송 아오야마</h3>
+                </div>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-100 text-slate-800">쇼핑</span>
+              </div>
+              <p class="text-xs text-slate-500 mt-1">레이 가와쿠보의 독창적인 건축 파사드와 전 라인을 아우르는 본점 플래그십</p>
+              <div class="mt-2.5 flex items-center justify-between">
+                <span class="text-[10px] text-slate-400">
+                  <i class="fa-solid fa-location-dot text-slate-400 mr-1"></i>미나미아오야마
+                </span>
+                <a href="https://maps.app.goo.gl/s9We9HXC8B3AMcKx6" target="_blank" rel="noopener noreferrer"
+                   class="text-[11px] font-bold text-blue-600 bg-blue-50 hover:bg-blue-100 px-2 py-1 rounded-lg border border-blue-100 flex items-center gap-1">
+                  <i class="fa-solid fa-map-location-dot text-[10px]"></i> 구글맵
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 8: Dinner TBD -->
+          <div class="schedule-card bg-white rounded-2xl p-3.5 shadow-card border border-dashed border-amber-200 bg-amber-50/20 flex items-start gap-3 transition-all">
+            <div class="text-xs font-bold text-amber-700 bg-amber-100/70 px-2.5 py-1 rounded-xl min-w-16 text-center">18:00</div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <button type="button" onclick="toggleScheduleCheck(this)" class="check-btn w-5 h-5 rounded-md border-2 border-slate-300 flex items-center justify-center text-white transition-all hover:border-slate-500 focus:outline-none" aria-label="일정 완료 체크">
+                    <i class="fa-solid fa-check text-[10px] hidden"></i>
+                  </button>
+                  <h3 class="schedule-title text-sm font-bold text-slate-800">저녁 식당 (미정)</h3>
+                </div>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800">식사</span>
+              </div>
+              <p class="text-xs text-slate-500 mt-1">아오야마/오모테산도 쇼핑 동선에 맞춰 자유롭게 식사 (하단 추천 식당 참고)</p>
+            </div>
+          </div>
+
+          <!-- 2일차 동선 근방 추천 식당 (미나미아오야마·오모테산도) -->
+          <div class="bg-slate-100/90 rounded-2xl p-3.5 border border-slate-200 space-y-2 mt-4">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-black text-slate-800 flex items-center gap-1.5">
+                <i class="fa-solid fa-utensils text-blue-600"></i> 2일차 추천 식당 (5선)
+              </span>
+              <button onclick="refreshRecommendations(2, 'food')" class="refresh-btn flex items-center gap-1 text-[11px] font-bold text-slate-600 bg-white hover:bg-slate-50 active:scale-95 px-2 py-1 rounded-lg border border-slate-200 transition-all shadow-2xs">
+                <i class="fa-solid fa-rotate text-[10px] text-blue-600 transition-transform"></i>
+                <span>새로고침</span>
+              </button>
+            </div>
+            <!-- 고정 높이 스크롤 영역 -->
+            <div id="rec-food-2" class="max-h-[210px] overflow-y-auto space-y-1.5 pr-1">
+              <!-- JS Generated -->
+            </div>
+          </div>
+
+          <!-- 2일차 동선 근방 추천 카페 (미나미아오야마·오모테산도) -->
+          <div class="bg-amber-50/70 rounded-2xl p-3.5 border border-amber-200/80 space-y-2 mt-2">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-black text-amber-900 flex items-center gap-1.5">
+                <i class="fa-solid fa-mug-saucer text-amber-600"></i> 2일차 추천 카페 (5선)
+              </span>
+              <button onclick="refreshRecommendations(2, 'cafe')" class="refresh-btn flex items-center gap-1 text-[11px] font-bold text-amber-900 bg-white hover:bg-amber-50 active:scale-95 px-2 py-1 rounded-lg border border-amber-200 transition-all shadow-2xs">
+                <i class="fa-solid fa-rotate text-[10px] text-amber-600 transition-transform"></i>
+                <span>새로고침</span>
+              </button>
+            </div>
+            <!-- 고정 높이 스크롤 영역 -->
+            <div id="rec-cafe-2" class="max-h-[210px] overflow-y-auto space-y-1.5 pr-1">
+              <!-- JS Generated -->
+            </div>
+          </div>
+        </div>
+
+        <!-- DAY 3 CONTAINER -->
+        <div id="day-content-3" class="day-content hidden space-y-3">
+          <!-- Item 1: Free time (Removed Popup) -->
+          <div class="schedule-card bg-slate-100 rounded-2xl p-4 border border-slate-200 flex items-start gap-3.5 transition-all">
+            <div class="text-xs font-black text-slate-700 bg-white px-2.5 py-1 rounded-xl min-w-16 text-center border border-slate-200 shadow-2xs">11:00</div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <button type="button" onclick="toggleScheduleCheck(this)" class="check-btn w-5 h-5 rounded-md border-2 border-slate-300 flex items-center justify-center text-white transition-all hover:border-slate-500 focus:outline-none" aria-label="일정 완료 체크">
+                    <i class="fa-solid fa-check text-[10px] hidden"></i>
+                  </button>
+                  <h3 class="schedule-title text-sm font-black text-slate-800">
+                    개인 일정 시간
+                  </h3>
+                </div>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-200 text-slate-700">자유</span>
+              </div>
+              <p class="text-xs text-slate-600 mt-1.5 font-medium leading-relaxed">
+                김지수가 치이카와 파크로 떠나는 동안 모두 자유롭게 여행하세요.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 2: 21_21 Design Sight -->
+          <div class="schedule-card bg-white rounded-2xl p-3.5 shadow-card border border-slate-100 flex items-start gap-3 transition-all">
+            <div class="text-xs font-black text-blue-700 bg-blue-50 px-2.5 py-1 rounded-xl min-w-16 text-center">14:00</div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <button type="button" onclick="toggleScheduleCheck(this)" class="check-btn w-5 h-5 rounded-md border-2 border-slate-300 flex items-center justify-center text-white transition-all hover:border-slate-500 focus:outline-none" aria-label="일정 완료 체크">
+                    <i class="fa-solid fa-check text-[10px] hidden"></i>
+                  </button>
+                  <h3 class="schedule-title text-sm font-extrabold text-slate-900">21_21 DESIGN SIGHT</h3>
+                </div>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-blue-100 text-blue-800">전시</span>
+              </div>
+              <p class="text-xs text-slate-500 mt-1">안도 다다오와 미야케 잇세이가 만든 도쿄 디자인의 상징적인 공간</p>
+              <div class="mt-2.5 flex items-center justify-between">
+                <span class="text-[10px] text-slate-400 bg-slate-50 px-2 py-0.5 rounded font-medium">운영: 10:00 ~ 19:00</span>
+                <a href="https://maps.google.com/?cid=18351375368394313434" target="_blank" rel="noopener noreferrer"
+                   class="text-[11px] font-bold text-blue-600 bg-blue-50 hover:bg-blue-100 px-2 py-1 rounded-lg border border-blue-100 flex items-center gap-1">
+                  <i class="fa-solid fa-map-location-dot text-[10px]"></i> 구글맵
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: Tokyo Midtown -->
+          <div class="schedule-card bg-white rounded-2xl p-3.5 shadow-card border border-slate-100 flex items-start gap-3 transition-all">
+            <div class="text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-xl min-w-16 text-center">오후 미정</div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <button type="button" onclick="toggleScheduleCheck(this)" class="check-btn w-5 h-5 rounded-md border-2 border-slate-300 flex items-center justify-center text-white transition-all hover:border-slate-500 focus:outline-none" aria-label="일정 완료 체크">
+                    <i class="fa-solid fa-check text-[10px] hidden"></i>
+                  </button>
+                  <h3 class="schedule-title text-sm font-extrabold text-slate-900">도쿄 미드타운</h3>
+                </div>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-100 text-slate-800">쇼핑/식사</span>
+              </div>
+              <p class="text-xs text-slate-500 mt-1">복합 라이프스타일 몰, 디자인 인테리어 숍 구경 및 저녁 식사</p>
+              <div class="mt-2.5 flex items-center justify-between">
+                <span class="text-[10px] text-slate-400 bg-slate-50 px-2 py-0.5 rounded font-medium">운영: 11:00 ~ 23:00</span>
+                <a href="https://maps.google.com/?cid=16951049664013903062" target="_blank" rel="noopener noreferrer"
+                   class="text-[11px] font-bold text-blue-600 bg-blue-50 hover:bg-blue-100 px-2 py-1 rounded-lg border border-blue-100 flex items-center gap-1">
+                  <i class="fa-solid fa-map-location-dot text-[10px]"></i> 구글맵
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4: Blue Note Tokyo Highlight (Layout Aligned with Other Cards) -->
+          <div class="schedule-card bg-slate-900 text-white rounded-2xl p-4 shadow-md relative overflow-hidden transition-all flex items-start gap-3.5">
+            <div class="flex flex-col items-center">
+              <span class="text-xs font-black text-amber-900 bg-amber-400 px-2.5 py-1 rounded-xl">19:45</span>
+            </div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <button type="button" onclick="toggleScheduleCheck(this)" class="check-btn w-5 h-5 rounded-md border-2 border-slate-500 flex items-center justify-center text-white transition-all hover:border-white focus:outline-none" aria-label="일정 완료 체크">
+                    <i class="fa-solid fa-check text-[10px] hidden"></i>
+                  </button>
+                  <div class="flex items-center gap-1.5 flex-wrap">
+                    <h3 class="schedule-title text-sm font-extrabold text-white">블루노트 도쿄</h3>
+                    <span class="text-[9px] font-black tracking-wide px-1.5 py-0.5 rounded bg-amber-400/20 text-amber-300 border border-amber-400/30">MAIN EVENT</span>
+                  </div>
+                </div>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-white/15 text-amber-300">재즈바</span>
+              </div>
+              <p class="text-xs text-slate-300 mt-1">정통 재즈 라이브와 칵테일 세션이 있는 도쿄의 밤 🎷🍸</p>
+              
+              <div class="mt-3 flex items-center justify-between">
+                <span class="text-[10px] text-slate-400">
+                  <i class="fa-solid fa-location-dot text-slate-400 mr-1"></i>미나미아오야마
+                </span>
+                <a href="https://maps.google.com/?cid=15661077281002319952" target="_blank" rel="noopener noreferrer"
+                   class="text-[11px] font-bold text-white bg-white/20 hover:bg-white/30 px-2.5 py-1 rounded-lg border border-white/10 flex items-center gap-1 transition-colors">
+                  <i class="fa-solid fa-map-location-dot text-[10px]"></i> 구글맵 보기
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3일차 동선 근방 추천 식당 (미드타운·롯폰기) -->
+          <div class="bg-slate-100/90 rounded-2xl p-3.5 border border-slate-200 space-y-2 mt-4">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-black text-slate-800 flex items-center gap-1.5">
+                <i class="fa-solid fa-utensils text-blue-600"></i> 3일차 추천 식당 (5선)
+              </span>
+              <button onclick="refreshRecommendations(3, 'food')" class="refresh-btn flex items-center gap-1 text-[11px] font-bold text-slate-600 bg-white hover:bg-slate-50 active:scale-95 px-2 py-1 rounded-lg border border-slate-200 transition-all shadow-2xs">
+                <i class="fa-solid fa-rotate text-[10px] text-blue-600 transition-transform"></i>
+                <span>새로고침</span>
+              </button>
+            </div>
+            <!-- 고정 높이 스크롤 영역 -->
+            <div id="rec-food-3" class="max-h-[210px] overflow-y-auto space-y-1.5 pr-1">
+              <!-- JS Generated -->
+            </div>
+          </div>
+
+          <!-- 3일차 동선 근방 추천 카페 (미드타운·롯폰기) -->
+          <div class="bg-amber-50/70 rounded-2xl p-3.5 border border-amber-200/80 space-y-2 mt-2">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-black text-amber-900 flex items-center gap-1.5">
+                <i class="fa-solid fa-mug-saucer text-amber-600"></i> 3일차 추천 카페 (5선)
+              </span>
+              <button onclick="refreshRecommendations(3, 'cafe')" class="refresh-btn flex items-center gap-1 text-[11px] font-bold text-amber-900 bg-white hover:bg-amber-50 active:scale-95 px-2 py-1 rounded-lg border border-amber-200 transition-all shadow-2xs">
+                <i class="fa-solid fa-rotate text-[10px] text-amber-600 transition-transform"></i>
+                <span>새로고침</span>
+              </button>
+            </div>
+            <!-- 고정 높이 스크롤 영역 -->
+            <div id="rec-cafe-3" class="max-h-[210px] overflow-y-auto space-y-1.5 pr-1">
+              <!-- JS Generated -->
+            </div>
+          </div>
+        </div>
+
+        <!-- DAY 4 CONTAINER -->
+        <div id="day-content-4" class="day-content hidden space-y-3">
+          <!-- Item 1: Ginza Itoya -->
+          <div class="schedule-card bg-white rounded-2xl p-4 shadow-card border border-slate-100 flex items-start gap-3 transition-all">
+            <div class="text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-xl min-w-16 text-center">오전 미정</div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <button type="button" onclick="toggleScheduleCheck(this)" class="check-btn w-5 h-5 rounded-md border-2 border-slate-300 flex items-center justify-center text-white transition-all hover:border-slate-500 focus:outline-none" aria-label="일정 완료 체크">
+                    <i class="fa-solid fa-check text-[10px] hidden"></i>
+                  </button>
+                  <h3 class="schedule-title text-sm font-extrabold text-slate-900">긴자 이토야 (Itoya)</h3>
+                </div>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-100 text-slate-800">쇼핑</span>
+              </div>
+              <p class="text-xs text-slate-500 mt-1">빨간 클립이 심볼인 긴자의 명품 문구 백화점! 디자인 지류 및 문구 쇼핑</p>
+              <div class="mt-3 flex items-center justify-between">
+                <span class="text-[10px] text-slate-400 bg-slate-50 px-2 py-0.5 rounded font-medium">운영: 10:00 ~ 20:00</span>
+                <a href="https://maps.google.com/?cid=9979308774657714368" target="_blank" rel="noopener noreferrer"
+                   class="text-[11px] font-bold text-blue-600 bg-blue-50 hover:bg-blue-100 px-2.5 py-1 rounded-lg border border-blue-100 flex items-center gap-1">
+                  <i class="fa-solid fa-map-location-dot text-[10px]"></i> 구글맵 보기
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Final Lunch -->
+          <div class="schedule-card bg-white rounded-2xl p-4 shadow-card border border-dashed border-amber-200 bg-amber-50/20 flex items-start gap-3 transition-all">
+            <div class="text-xs font-bold text-amber-700 bg-amber-100/70 px-2.5 py-1 rounded-xl min-w-16 text-center">오후 미정</div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <button type="button" onclick="toggleScheduleCheck(this)" class="check-btn w-5 h-5 rounded-md border-2 border-slate-300 flex items-center justify-center text-white transition-all hover:border-slate-500 focus:outline-none" aria-label="일정 완료 체크">
+                    <i class="fa-solid fa-check text-[10px] hidden"></i>
+                  </button>
+                  <h3 class="schedule-title text-sm font-bold text-slate-800">긴자 마지막 식사 (미정)</h3>
+                </div>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800">식사</span>
+              </div>
+              <p class="text-xs text-slate-500 mt-1">도쿄역 이동 전 든든한 점심 식사 (하단 추천 식당 참고)</p>
+            </div>
+          </div>
+
+          <!-- Item 3: Narita move alert (Updated to Red Theme) -->
+          <div class="bg-rose-50 border border-rose-200 rounded-2xl p-4 flex items-center gap-3">
+            <div class="w-8 h-8 rounded-xl bg-rose-600 text-white flex items-center justify-center text-xs shrink-0">
+              <i class="fa-solid fa-plane"></i>
+            </div>
+            <div class="text-xs text-rose-900">
+              <span class="font-black text-rose-950 block">도쿄역 이동 및 N'EX 탑승 권장</span>
+              오후 16:00 이전에는 도쿄역에 도착하여 나리타 익스프레스 티켓 확인 후 승차!
+            </div>
+          </div>
+
+          <!-- 4일차 동선 근방 추천 식당 (긴자 이토야·도쿄역) -->
+          <div class="bg-slate-100/90 rounded-2xl p-3.5 border border-slate-200 space-y-2 mt-4">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-black text-slate-800 flex items-center gap-1.5">
+                <i class="fa-solid fa-utensils text-blue-600"></i> 4일차 추천 식당 (5선)
+              </span>
+              <button onclick="refreshRecommendations(4, 'food')" class="refresh-btn flex items-center gap-1 text-[11px] font-bold text-slate-600 bg-white hover:bg-slate-50 active:scale-95 px-2 py-1 rounded-lg border border-slate-200 transition-all shadow-2xs">
+                <i class="fa-solid fa-rotate text-[10px] text-blue-600 transition-transform"></i>
+                <span>새로고침</span>
+              </button>
+            </div>
+            <!-- 고정 높이 스크롤 영역 -->
+            <div id="rec-food-4" class="max-h-[210px] overflow-y-auto space-y-1.5 pr-1">
+              <!-- JS Generated -->
+            </div>
+          </div>
+
+          <!-- 4일차 동선 근방 추천 카페 (긴자 이토야·도쿄역) -->
+          <div class="bg-amber-50/70 rounded-2xl p-3.5 border border-amber-200/80 space-y-2 mt-2">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-black text-amber-900 flex items-center gap-1.5">
+                <i class="fa-solid fa-mug-saucer text-amber-600"></i> 4일차 추천 카페 (5선)
+              </span>
+              <button onclick="refreshRecommendations(4, 'cafe')" class="refresh-btn flex items-center gap-1 text-[11px] font-bold text-amber-900 bg-white hover:bg-amber-50 active:scale-95 px-2 py-1 rounded-lg border border-amber-200 transition-all shadow-2xs">
+                <i class="fa-solid fa-rotate text-[10px] text-amber-600 transition-transform"></i>
+                <span>새로고침</span>
+              </button>
+            </div>
+            <!-- 고정 높이 스크롤 영역 -->
+            <div id="rec-cafe-4" class="max-h-[210px] overflow-y-auto space-y-1.5 pr-1">
+              <!-- JS Generated -->
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- ============================================== -->
+      <!-- TAB 3: 정산 (BUDGET & EXPENSES) -->
+      <!-- ============================================== -->
+      <section id="tab-budget" class="hidden space-y-4">
+        
+        <!-- Summary Stats Card (Modern Slate Gradient) -->
+        <div class="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white rounded-3xl p-5 shadow-card relative overflow-hidden">
+          <div class="relative z-10">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-medium text-slate-300">총 공동 지출 금액</span>
+              <span class="text-[11px] bg-white/10 backdrop-blur-md px-2.5 py-0.5 rounded-full font-bold text-slate-200">5인 N분의 1 분담</span>
+            </div>
+            <div class="text-2xl font-black mt-2 tracking-tight flex items-baseline gap-1">
+              <span>¥</span><span id="total-spent-yen">25,800</span>
+              <span class="text-xs text-slate-400 font-normal ml-2" id="total-spent-krw">(약 232,200원)</span>
+            </div>
+            
+            <div class="mt-4 pt-3 border-t border-white/10 flex items-center justify-between text-xs">
+              <div>
+                <span class="text-slate-400 block text-[10px]">1인당 부담 금액</span>
+                <span class="font-extrabold text-sm text-white" id="per-person-yen">¥ 5,160</span>
+              </div>
+              <div class="text-right">
+                <span class="text-slate-400 block text-[10px]">원화 환산 (100엔=900원)</span>
+                <span class="font-bold text-sm text-amber-300" id="per-person-krw">약 46,440원</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add Expense Accordion / Card Form -->
+        <div class="bg-white rounded-2xl p-4 shadow-card border border-slate-100">
+          <div class="flex items-center justify-between mb-3">
+            <h3 class="text-xs font-black text-slate-900 flex items-center gap-1.5">
+              <i class="fa-solid fa-receipt text-blue-600"></i> 지출 입력하기
+            </h3>
+            <span class="text-[10px] text-slate-400">실시간 1/N 계산</span>
+          </div>
+
+          <form id="expense-form" class="space-y-3">
+            <div class="grid grid-cols-2 gap-2">
+              <div>
+                <label class="text-[10px] font-bold text-slate-500 mb-1 block">내역 (항목명)</label>
+                <input type="text" id="input-title" required placeholder="예: 죠몬 롯폰기 꼬치구이" 
+                       class="w-full px-3 py-2 text-xs rounded-xl bg-slate-50 border border-slate-200 focus:outline-none focus:border-slate-800 focus:bg-white transition-all">
+              </div>
+              <div>
+                <label class="text-[10px] font-bold text-slate-500 mb-1 block">카테고리</label>
+                <select id="input-category" 
+                        class="w-full px-3 py-2 text-xs rounded-xl bg-slate-50 border border-slate-200 focus:outline-none focus:border-slate-800 focus:bg-white transition-all">
+                  <option value="식사">식사 🍢</option>
+                  <option value="교통">교통 🚃</option>
+                  <option value="쇼핑">쇼핑 🛍️</option>
+                  <option value="전시">전시 🎨</option>
+                  <option value="기타">기타 ✨</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-2">
+              <div>
+                <label class="text-[10px] font-bold text-slate-500 mb-1 block">결제 금액 (JPY ¥)</label>
+                <input type="number" id="input-amount" required placeholder="예: 15000" min="1"
+                       class="w-full px-3 py-2 text-xs rounded-xl bg-slate-50 border border-slate-200 focus:outline-none focus:border-slate-800 focus:bg-white transition-all">
+              </div>
+              <div>
+                <label class="text-[10px] font-bold text-slate-500 mb-1 block">결제한 사람</label>
+                <select id="input-payer" 
+                        class="w-full px-3 py-2 text-xs rounded-xl bg-slate-50 border border-slate-200 focus:outline-none focus:border-slate-800 focus:bg-white transition-all">
+                  <option value="멤버1">멤버 1</option>
+                  <option value="멤버2">멤버 2</option>
+                  <option value="멤버3">멤버 3</option>
+                  <option value="멤버4">멤버 4</option>
+                  <option value="멤버5">멤버 5</option>
+                </select>
+              </div>
+            </div>
+
+            <button type="submit" 
+                    class="w-full py-2.5 bg-slate-900 hover:bg-black active:scale-[0.98] text-white font-black text-xs rounded-xl transition-all flex items-center justify-center gap-1.5 shadow-sm">
+              <i class="fa-solid fa-plus text-[10px]"></i>
+              지출 내역에 추가
+            </button>
+          </form>
+        </div>
+
+        <!-- Filter Sub-tabs: 지출 내역 / 정산 완료 내역 -->
+        <div class="flex items-center justify-between pt-1">
+          <div class="flex items-center bg-slate-200 p-1 rounded-xl gap-1 text-[11px]">
+            <button onclick="switchBudgetView('list')" id="subtab-list" class="px-3 py-1 font-bold rounded-lg bg-white text-slate-900 shadow-xs transition-all">
+              지출 내역 (<span id="expense-count">3</span>)
+            </button>
+            <button onclick="switchBudgetView('settle')" id="subtab-settle" class="px-3 py-1 font-medium text-slate-600 rounded-lg hover:text-slate-900 transition-all">
+              정산 완료
+            </button>
+          </div>
+          <span class="text-[10px] text-slate-400">카드 클릭 시 정산 상태 변경</span>
+        </div>
+
+        <!-- Expense History List View -->
+        <div id="expense-list-container" class="space-y-2">
+          <!-- Dynamic List of Cards inserted via JS -->
+        </div>
+
+        <!-- Settled Items History View -->
+        <div id="settled-list-container" class="hidden space-y-2">
+          <!-- Settled items go here -->
+        </div>
+
+      </section>
+
+    </div>
+
+    <!-- BOTTOM NAVIGATION BAR (iOS / Modern Minimalist Mobile Style) -->
+    <nav class="absolute bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-slate-200 px-6 py-2.5 z-30 shadow-bottom-nav flex items-center justify-around">
+      <!-- Tab 1: Transit -->
+      <button onclick="switchTab('transit')" id="nav-transit" class="nav-btn group flex flex-col items-center gap-1 text-slate-900 transition-all">
+        <div class="w-10 h-7 rounded-xl flex items-center justify-center transition-all bg-slate-100 group-hover:scale-105">
+          <i class="fa-solid fa-train-subway text-sm"></i>
+        </div>
+        <span class="text-[11px] font-black tracking-tight">이동</span>
+      </button>
+
+      <!-- Tab 2: Schedule -->
+      <button onclick="switchTab('schedule')" id="nav-schedule" class="nav-btn group flex flex-col items-center gap-1 text-slate-400 hover:text-slate-800 transition-all">
+        <div class="w-10 h-7 rounded-xl flex items-center justify-center transition-all group-hover:scale-105">
+          <i class="fa-regular fa-calendar-days text-sm"></i>
+        </div>
+        <span class="text-[11px] font-bold tracking-tight">일정</span>
+      </button>
+
+      <!-- Tab 3: Budget / Settlement -->
+      <button onclick="switchTab('budget')" id="nav-budget" class="nav-btn group flex flex-col items-center gap-1 text-slate-400 hover:text-slate-800 transition-all">
+        <div class="w-10 h-7 rounded-xl flex items-center justify-center transition-all group-hover:scale-105">
+          <i class="fa-solid fa-calculator text-sm"></i>
+        </div>
+        <span class="text-[11px] font-bold tracking-tight">정산</span>
+      </button>
+    </nav>
+
+    <!-- Notification Toast Message -->
+    <div id="toast" class="fixed bottom-20 left-1/2 -translate-x-1/2 bg-slate-900 text-white px-4 py-2 rounded-full text-xs font-semibold shadow-xl opacity-0 transition-opacity duration-300 pointer-events-none z-50 flex items-center gap-2">
+      <i class="fa-solid fa-check text-blue-400"></i>
+      <span id="toast-message">저장되었습니다</span>
+    </div>
+
+  </main>
+
+  <script>
+    // State: Expenses with initial mock values matching Tokyo trip items
+    let expenses = [
+      { id: 1, title: '스카이라이너 5인 편도 예매', amount: 12850, category: '교통', payer: '멤버1', settled: false, date: '11/28' },
+      { id: 2, title: '편의점 로손 간식 & 음료', amount: 3950, category: '식사', payer: '멤버2', settled: false, date: '11/28' },
+      { id: 3, title: '블루노트 도쿄 공연 예약금', amount: 9000, category: '전시', payer: '멤버3', settled: false, date: '11/26' }
+    ];
+
+    const EXCHANGE_RATE = 9.0; // 1 JPY = 9 KRW approx
+
+    // Comprehensive recommendation pools for each itinerary area
+    const recommendationData = {
+      1: {
+        food: [
+          { name: "Balcony by 6th", desc: "아자부다이힐즈 3F · 팬케이크 & 이탈리안 비스트로", map: "https://maps.google.com/?cid=2327445109759790476" },
+          { name: "Sushi Azabu", desc: "아자부다이힐즈 3F · 미슐랭 계열 정갈한 스시 코스", map: "https://maps.google.com/?cid=13726096274357435100" },
+          { name: "요로니쿠 도쿄 아자부다이힐즈", desc: "최고급 와규 야키니쿠 코스 전문점 (평점 4.6)", map: "https://maps.google.com/?cid=1016898051006815555" },
+          { name: "쇼군 버거 아자부다이힐스점", desc: "육즙 가득한 100% 와규 수제버거 맛집", map: "https://maps.google.com/?cid=15633199913133188681" },
+          { name: "Hills House Dining 33", desc: "모리JP타워 33F · 도쿄 타워 조망 프렌치 비스트로", map: "https://maps.google.com/?cid=7596461123925674531" },
+          { name: "아카베코야 (Akabekoya)", desc: "아자부다이 인근 · 깊은 육즙의 명품 규카츠 & 와규", map: "https://maps.google.com/?cid=10242493378356707949" },
+          { name: "곤파치 니시아자부 (Kill Bill)", desc: "킬빌 배경 모티브 전통 이자카야 & 소바", map: "https://maps.google.com/?cid=914840833132717918" },
+          { name: "이마카츠 롯폰기 본점", desc: "롯폰기역 도보 1분 · 부드러운 닭가슴살 카츠 명소", map: "https://maps.google.com/?cid=5676345688636750058" }
+        ],
+        cafe: [
+          { name: "% ARABICA 도쿄 아자부다이 4F", desc: "교토 응커피 플래그십 · 감각적인 뷰와 라떼", map: "https://maps.google.com/?cid=6674023438565175572" },
+          { name: "Azabudai Hills Cafe", desc: "힐즈 중앙 광장 뷰를 감상할 수 있는 개방형 카페", map: "https://maps.google.com/?cid=7164626121027906540" },
+          { name: "힐즈하우스 스카이룸 카페", desc: "森JP타워 34층 전망 라운지 커피 & 디저트", map: "https://maps.google.com/?cid=4391926686107656550" },
+          { name: "LATTE GRAPHIC 아자부다이", desc: "호주 멜버른 스타일 부드러운 플랫화이트 & 브런치", map: "https://maps.google.com/?cid=3412988084748228323" },
+          { name: "아자부다이 힐즈 갤러리 카페", desc: "전시와 연계된 스페셜티 음료 & 디저트 공간", map: "https://maps.google.com/?cid=8537718159622144401" },
+          { name: "하브스 (HARBS) 롯폰기힐즈점", desc: "제철 생과일 밀크 크레이프 케이크 & 티", map: "https://maps.google.com/?cid=513783610996847849" },
+          { name: "부티크 사다하루 아오키 롯폰기", desc: "파리지앵 감성의 말차 에클레어 & 디저트 살롱", map: "https://maps.google.com/?cid=12185623891461971485" }
+        ]
+      },
+      2: {
+        food: [
+          { name: "Brown Rice Tokyo", desc: "오모테산도 골목 · 정갈하고 건강한 일본식 오가닉 정식", map: "https://maps.google.com/?cid=5110440726339811778" },
+          { name: "AFURI 미나미아오야마", desc: "상큼하고 깔끔한 유자 시오라멘 & 츠케멘", map: "https://maps.google.com/?cid=16277687351646395384" },
+          { name: "Yanmo (얀모 아오야마)", desc: "미나미아오야마 지하의 정갈한 생선구이 정식 찐맛집", map: "https://maps.google.com/?cid=3597520802472513716" },
+          { name: "오모테산도 우카이테이", desc: "자일 빌딩 5F · 품격 있는 미슐랭 철판 테판야키", map: "https://maps.google.com/?cid=6488589390633478948" },
+          { name: "Napule 아오야마", desc: "정통 나폴리 화덕 피자와 신선한 파스타 전문점", map: "https://maps.google.com/?cid=6671060018412684709" },
+          { name: "마이센 아오야마 본점", desc: "유서 깊은 서양식 대욕탕 개조 흑돼지 돈카츠", map: "https://maps.google.com/?cid=1686776100780287233" },
+          { name: "스시 도쿄 텐 시부야", desc: "가성비 뛰어난 오마카세 스시 코스", map: "https://maps.google.com/?cid=11306353911009139162" },
+          { name: "CICADA (치카다)", desc: "미나미아오야마 럭셔리 지중해 리조트풍 레스토랑", map: "https://maps.google.com/?cid=12361627443834241604" }
+        ],
+        cafe: [
+          { name: "네즈 카페 (NEZU CAFÉ)", desc: "네즈미술관 내 · 사계절 정원을 감상하는 통유리창 티룸", map: "https://maps.google.com/?cid=3302356202518170953" },
+          { name: "아오야마 플라워마켓 티하우스 본점", desc: "꽃과 온실로 둘러싸인 생화 인테리어 허브티 카페", map: "https://maps.google.com/?cid=13910613159915711643" },
+          { name: "카페 키츠네 (Café Kitsuné)", desc: "메종 키츠네 감성의 일본 전통 가옥 모티브 카페", map: "https://maps.google.com/?cid=17124737429069750850" },
+          { name: "크리스크로스 (crisscross)", desc: "아늑한 야외 테라스에서 즐기는 브런치 & 커피", map: "https://maps.google.com/?cid=5447424886720441860" },
+          { name: "i2 cafe", desc: "꽃과 식물이 가득한 감각적인 스페셜티 브런치 카페", map: "https://maps.google.com/?cid=1959181915202204692" },
+          { name: "블루보틀 아오야마 카페", desc: "초록빛 나무 테라스가 펼쳐진 아오야마 핸드드립 매장", map: "https://maps.google.com/?cid=10804791093121570775" },
+          { name: "쇼조 커피 스토어 (SHOZO)", desc: "아기자기한 스콘과 따뜻한 드립 커피 감성 공간", map: "https://maps.google.com/?cid=14436585141151608666" }
+        ]
+      },
+      3: {
+        food: [
+          { name: "Suju Dining Rokkaku", desc: "도쿄 미드타운 내 · 정갈하고 깊은 맛의 일본 가정식 정식", map: "https://maps.google.com/?cid=14364265436444818433" },
+          { name: "교파오 교자 롯폰기", desc: "롯폰기역 도보 1분 · 육즙 가득 수제 교자와 샤오롱바오", map: "https://maps.google.com/?cid=11783576429337268977" },
+          { name: "츠루동탄 롯폰기점", desc: "대야 우동으로 유명한 프리미엄 수제 명란/크림 우동", map: "https://maps.google.com/?cid=6396722401939980052" },
+          { name: "키센테이 도쿄미드타운점", desc: "이마한 직영 · 미드타운 3층 고급 철판 스테이크", map: "https://maps.google.com/?cid=11395072429440873424" },
+          { name: "Rio Brewing Company", desc: "미드타운 잔디광장 뷰 테라스 & 수제 맥주 비스트로", map: "https://maps.google.com/?cid=8890174776994742035" },
+          { name: "나다만 기류 (Nadaman)", desc: "도쿄 미드타운 가든 테라스 모던 가이세키 런치", map: "https://maps.google.com/?cid=1264627494582310862" },
+          { name: "피제리아 카니발레 (Canivale)", desc: "미드타운 뒷골목 화덕 피자 & 와인 비스트로", map: "https://maps.google.com/?cid=176391058201947214" }
+        ],
+        cafe: [
+          { name: "HARBS 도쿄 미드타운점", desc: "신선한 제철 과일이 듬뿍 들어간 시그니처 크레이프 케이크", map: "https://maps.google.com/?cid=8171770921321460530" },
+          { name: "블루보틀커피 롯폰기 카페", desc: "도쿄미드타운 맞은편 한적한 공원 앞 스페셜티 핸드드립", map: "https://maps.google.com/?cid=743147500654615447" },
+          { name: "안티코 카페 알 아비스 미드타운", desc: "이탈리안 정통 에스프레소 & 바삭한 파니니", map: "https://maps.google.com/?cid=18079058619299504995" },
+          { name: "벌브 커피 로스터즈 롯폰기", desc: "캘리포니아 감성의 힙한 로스터리 & 에스프레소 바", map: "https://maps.google.com/?cid=9573939175237169813" },
+          { name: "딘앤델루카 카페 롯폰기", desc: "미드타운 지하의 여유로운 커피와 베이커리 라운지", map: "https://maps.google.com/?cid=6672477866035109677" },
+          { name: "Common (커먼 롯폰기)", desc: "감각적인 복합 컬처 라운지 & 스페셜티 커피", map: "https://maps.google.com/?cid=2464690548527524087" },
+          { name: "토라야 미드타운 티룸", desc: "전통 화과자와 말차를 현대적으로 재해석한 디저트", map: "https://maps.google.com/?cid=4219487560192841029" }
+        ]
+      },
+      4: {
+        food: [
+          { name: "츠지타 긴자 (Tsujita)", desc: "이토야 도보 2분 · 진하고 깊은 돈코츠 해물 츠케멘", map: "https://maps.google.com/?cid=12118886423874460458" },
+          { name: "긴자 텐류 본점 (Tenryu)", desc: "긴자역 인근 · 겉바속촉 시그니처 대왕 군만두", map: "https://maps.google.com/?cid=10637627517545470857" },
+          { name: "Gyū-an Ginza (규안)", desc: "고베규 스키야키 & 스테이크 런치 가성비 맛집", map: "https://maps.google.com/?cid=2476262114702250547" },
+          { name: "Godaime Wagyu Tokyo", desc: "히가시긴자 와규 버거 & 스테이크 명소 (평점 4.7)", map: "https://maps.google.com/?cid=637289833621908159" },
+          { name: "잇푸도 긴자점", desc: "진한 하카타 돈코츠 라멘과 한입 교자", map: "https://maps.google.com/?cid=9280641726961323714" },
+          { name: "렌게 에또와르 (Renge)", desc: "긴자 정통 중화요리 사천 탄탄멘 & 딤섬 명가", map: "https://maps.google.com/?cid=104391827401928374" },
+          { name: "긴자 카가리 본점 (Kagari)", desc: "진하고 크리미한 닭 백탕 토리파이탄 라멘 성지", map: "https://maps.google.com/?cid=1443729104829104812" },
+          { name: "쿠시야키 비스트로 후쿠미미 긴자", desc: "긴자 코리도 거리의 감각적인 숯불 꼬치구이", map: "https://maps.google.com/?cid=3342363753007324535" }
+        ],
+        cafe: [
+          { name: "Cafe Stylo (이토야 12F)", desc: "이토야 최상층 채소 수경재배 샐러드 & 브런치 카페", map: "https://maps.google.com/?cid=9979308774657714368" },
+          { name: "본겐 커피 (Bongen Coffee) 긴자", desc: "분재(Bonsai) 인테리어와 정성스런 드립 & 맛챠 라떼", map: "https://maps.google.com/?cid=9301737868646870783" },
+          { name: "브루맨 도쿄 긴자 (Brewman)", desc: "바리스타 챔피언의 스페셜티 커피 & 드립 바 (평점 4.9)", map: "https://maps.google.com/?cid=1049103608970325263" },
+          { name: "NOA CAFE 긴자", desc: "긴자역 앞 클래식한 갓 구운 와플 & 커피 전문 카페", map: "https://maps.google.com/?cid=10545693392435574414" },
+          { name: "Musashi no Mori Coffee 긴자", desc: "입안에서 녹아내리는 푹신한 수플레 팬케이크 맛집", map: "https://maps.google.com/?cid=17620361972215275786" },
+          { name: "카페 파울리스타 (Café Paulista)", desc: "1911년 창업 · 존 레논도 찾았던 유서 깊은 빈티지 카페", map: "https://maps.google.com/?cid=520194827103948291" },
+          { name: "트리콜로레 본점 (Tricolore)", desc: "벽돌 외관과 높은 곳에서 따라주는 아이스 카페오레", map: "https://maps.google.com/?cid=130492817402918471" }
+        ]
+      }
+    };
+
+    // Keep track of rotation indices for round-robin shuffling
+    const recIndices = {
+      1: { food: 0, cafe: 0 },
+      2: { food: 0, cafe: 0 },
+      3: { food: 0, cafe: 0 },
+      4: { food: 0, cafe: 0 }
+    };
+
+    // Render 5 items for given day and type
+    function renderRecList(day, type) {
+      const container = document.getElementById(`rec-${type}-${day}`);
+      if (!container) return;
+
+      const pool = recommendationData[day][type];
+      const startIndex = recIndices[day][type];
+      const items = [];
+
+      for (let i = 0; i < 5; i++) {
+        items.push(pool[(startIndex + i) % pool.length]);
+      }
+
+      const isCafe = type === 'cafe';
+      const borderClass = isCafe ? 'border-amber-200' : 'border-slate-200';
+      const btnClass = isCafe ? 'text-amber-700 bg-amber-50 hover:bg-amber-100 border-amber-200' : 'text-blue-600 bg-blue-50 hover:bg-blue-100 border-blue-100';
+
+      container.innerHTML = items.map(item => `
+        <div class="bg-white p-2.5 rounded-xl border ${borderClass} flex items-center justify-between transition-all">
+          <div class="pr-2">
+            <h4 class="text-xs font-bold text-slate-900">${item.name}</h4>
+            <p class="text-[10px] text-slate-500 mt-0.5 line-clamp-1">${item.desc}</p>
+          </div>
+          <a href="${item.map}" target="_blank" rel="noopener noreferrer" 
+             class="shrink-0 text-[11px] font-bold ${btnClass} px-2.5 py-1 rounded-lg border flex items-center gap-1 transition-colors">
+            <span>구글맵</span>
+          </a>
+        </div>
+      `).join('');
+    }
+
+    // Refresh button click handler with button animation
+    function refreshRecommendations(day, type) {
+      const btn = event ? event.currentTarget : null;
+      if (btn) {
+        const icon = btn.querySelector('i');
+        if (icon) {
+          icon.classList.add('rotate-180');
+          setTimeout(() => icon.classList.remove('rotate-180'), 300);
+        }
+      }
+
+      const pool = recommendationData[day][type];
+      // Increment rotation offset by 2 or random to get a refreshed variety
+      recIndices[day][type] = (recIndices[day][type] + 3) % pool.length;
+      renderRecList(day, type);
+      showToast(`${day}일차 ${type === 'food' ? '추천 식당' : '추천 카페'} 목록을 새로고침했습니다`);
+    }
+
+    // Initial render of all days recommendation lists
+    function initAllRecommendations() {
+      for (let day = 1; day <= 4; day++) {
+        renderRecList(day, 'food');
+        renderRecList(day, 'cafe');
+      }
+    }
+
+    // Tab Switching Logic
+    function switchTab(tabName) {
+      document.getElementById('tab-transit').classList.add('hidden');
+      document.getElementById('tab-schedule').classList.add('hidden');
+      document.getElementById('tab-budget').classList.add('hidden');
+
+      const tabs = ['transit', 'schedule', 'budget'];
+      tabs.forEach(t => {
+        const btn = document.getElementById('nav-' + t);
+        const iconWrap = btn.querySelector('div');
+        const span = btn.querySelector('span');
+        
+        btn.classList.remove('text-slate-900');
+        btn.classList.add('text-slate-400');
+        iconWrap.classList.remove('bg-slate-100');
+        span.classList.remove('font-black');
+        span.classList.add('font-bold');
+      });
+
+      const targetTab = document.getElementById('tab-' + tabName);
+      if (targetTab) targetTab.classList.remove('hidden');
+
+      const activeBtn = document.getElementById('nav-' + tabName);
+      if (activeBtn) {
+        activeBtn.classList.remove('text-slate-400');
+        activeBtn.classList.add('text-slate-900');
+        activeBtn.querySelector('div').classList.add('bg-slate-100');
+        const span = activeBtn.querySelector('span');
+        span.classList.remove('font-bold');
+        span.classList.add('font-black');
+      }
+
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Schedule Day Switching Logic
+    function selectDay(dayNumber) {
+      for (let i = 1; i <= 4; i++) {
+        const content = document.getElementById('day-content-' + i);
+        const pill = document.getElementById('day-pill-' + i);
+        if (content && pill) {
+          if (i === dayNumber) {
+            content.classList.remove('hidden');
+            pill.className = 'day-pill flex-1 py-2 px-3 rounded-2xl font-black text-xs whitespace-nowrap bg-slate-900 text-white shadow-sm transition-all';
+          } else {
+            content.classList.add('hidden');
+            pill.className = 'day-pill flex-1 py-2 px-3 rounded-2xl font-semibold text-xs whitespace-nowrap bg-white text-slate-500 border border-slate-200 hover:bg-slate-50 transition-all';
+          }
+        }
+      }
+    }
+
+    // Budget Sub-view Switching (List vs Settled)
+    let currentBudgetView = 'list';
+    function switchBudgetView(view) {
+      currentBudgetView = view;
+      const listContainer = document.getElementById('expense-list-container');
+      const settledContainer = document.getElementById('settled-list-container');
+      const subtabList = document.getElementById('subtab-list');
+      const subtabSettle = document.getElementById('subtab-settle');
+
+      if (view === 'list') {
+        listContainer.classList.remove('hidden');
+        settledContainer.classList.add('hidden');
+
+        subtabList.className = 'px-3 py-1 font-bold rounded-lg bg-white text-slate-900 shadow-xs transition-all';
+        subtabSettle.className = 'px-3 py-1 font-medium text-slate-500 rounded-lg hover:text-slate-900 transition-all';
+      } else {
+        listContainer.classList.add('hidden');
+        settledContainer.classList.remove('hidden');
+
+        subtabSettle.className = 'px-3 py-1 font-bold rounded-lg bg-white text-slate-900 shadow-xs transition-all';
+        subtabList.className = 'px-3 py-1 font-medium text-slate-500 rounded-lg hover:text-slate-900 transition-all';
+      }
+      renderExpenses();
+    }
+
+    // Toggle Settle Status
+    function toggleSettle(id) {
+      const item = expenses.find(e => e.id === id);
+      if (item) {
+        item.settled = !item.settled;
+        renderExpenses();
+        showToast(item.settled ? '정산 완료 내역으로 이동되었습니다' : '지출 내역 목록으로 복원되었습니다');
+      }
+    }
+
+    // Delete item
+    function deleteExpense(id, event) {
+      event.stopPropagation();
+      expenses = expenses.filter(e => e.id !== id);
+      renderExpenses();
+      showToast('내역이 삭제되었습니다');
+    }
+
+    // Format Number
+    function formatNum(n) {
+      return Number(n).toLocaleString('ko-KR');
+    }
+
+    // Render Expenses & Update Calculations
+    function renderExpenses() {
+      const activeExpenses = expenses.filter(e => !e.settled);
+      const settledExpenses = expenses.filter(e => e.settled);
+
+      const totalYen = activeExpenses.reduce((sum, item) => sum + item.amount, 0);
+      const totalKrw = Math.round(totalYen * EXCHANGE_RATE);
+      const perPersonYen = Math.round(totalYen / 5);
+      const perPersonKrw = Math.round(totalKrw / 5);
+
+      document.getElementById('total-spent-yen').innerText = formatNum(totalYen);
+      document.getElementById('total-spent-krw').innerText = `(약 ${formatNum(totalKrw)}원)`;
+      document.getElementById('per-person-yen').innerText = `¥ ${formatNum(perPersonYen)}`;
+      document.getElementById('per-person-krw').innerText = `약 ${formatNum(perPersonKrw)}원`;
+      document.getElementById('expense-count').innerText = activeExpenses.length;
+
+      const listContainer = document.getElementById('expense-list-container');
+      if (activeExpenses.length === 0) {
+        listContainer.innerHTML = `
+          <div class="bg-white rounded-2xl p-6 text-center text-slate-400 text-xs border border-dashed border-slate-200">
+            <i class="fa-regular fa-clipboard text-2xl mb-1 text-slate-300 block"></i>
+            등록된 지출 내역이 없습니다. 위에서 입력해보세요!
+          </div>
+        `;
+      } else {
+        listContainer.innerHTML = activeExpenses.map(item => `
+          <div onclick="toggleSettle(${item.id})" class="cursor-pointer bg-white rounded-2xl p-3.5 shadow-card border border-slate-100 flex items-center justify-between hover:border-slate-300 transition-all active:scale-[0.99]">
+            <div class="flex items-center gap-3">
+              <span class="w-8 h-8 rounded-xl bg-slate-100 text-slate-700 flex items-center justify-center text-xs font-bold">
+                ${getCategoryIcon(item.category)}
+              </span>
+              <div>
+                <h4 class="text-xs font-bold text-slate-900">${item.title}</h4>
+                <div class="text-[10px] text-slate-400 mt-0.5 flex items-center gap-1.5">
+                  <span class="text-blue-600 font-semibold">${item.payer} 결제</span>
+                  <span>·</span>
+                  <span>${item.date || '도쿄'}</span>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="text-right">
+                <span class="text-xs font-black text-slate-900 block">¥ ${formatNum(item.amount)}</span>
+                <span class="text-[10px] text-slate-400">1인 ¥ ${formatNum(Math.round(item.amount / 5))}</span>
+              </div>
+              <button onclick="deleteExpense(${item.id}, event)" class="p-1.5 text-slate-300 hover:text-rose-500 rounded-lg transition-colors">
+                <i class="fa-solid fa-trash-can text-xs"></i>
+              </button>
+            </div>
+          </div>
+        `).join('');
+      }
+
+      const settledContainer = document.getElementById('settled-list-container');
+      if (settledExpenses.length === 0) {
+        settledContainer.innerHTML = `
+          <div class="bg-white rounded-2xl p-6 text-center text-slate-400 text-xs border border-dashed border-slate-200">
+            <i class="fa-solid fa-check-double text-2xl mb-1 text-emerald-400 block"></i>
+            완료된 정산 내역이 아직 없습니다.
+          </div>
+        `;
+      } else {
+        settledContainer.innerHTML = settledExpenses.map(item => `
+          <div onclick="toggleSettle(${item.id})" class="cursor-pointer bg-slate-50 rounded-2xl p-3.5 border border-slate-200 flex items-center justify-between opacity-80 hover:opacity-100 transition-all">
+            <div class="flex items-center gap-3">
+              <span class="w-8 h-8 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center text-xs font-bold">
+                <i class="fa-solid fa-check"></i>
+              </span>
+              <div>
+                <h4 class="text-xs font-bold text-slate-500 line-through">${item.title}</h4>
+                <div class="text-[10px] text-slate-400">
+                  <span>${item.payer} 결제분 (정산 완료)</span>
+                </div>
+              </div>
+            </div>
+            <div class="text-right">
+              <span class="text-xs font-bold text-slate-500">¥ ${formatNum(item.amount)}</span>
+              <span class="text-[10px] text-emerald-600 font-bold block">정산 끝</span>
+            </div>
+          </div>
+        `).join('');
+      }
+    }
+
+    function getCategoryIcon(cat) {
+      switch(cat) {
+        case '식사': return '🍢';
+        case '교통': return '🚃';
+        case '쇼핑': return '🛍️';
+        case '전시': return '🎨';
+        default: return '✨';
+      }
+    }
+
+    // Add Expense Event Listener
+    document.getElementById('expense-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const titleInput = document.getElementById('input-title');
+      const amountInput = document.getElementById('input-amount');
+      const categoryInput = document.getElementById('input-category');
+      const payerInput = document.getElementById('input-payer');
+
+      const newExpense = {
+        id: Date.now(),
+        title: titleInput.value.trim(),
+        amount: parseInt(amountInput.value, 10),
+        category: categoryInput.value,
+        payer: payerInput.value,
+        settled: false,
+        date: '11/29'
+      };
+
+      expenses.unshift(newExpense);
+      renderExpenses();
+      showToast('지출 내역이 등록되었습니다');
+
+      titleInput.value = '';
+      amountInput.value = '';
+      titleInput.focus();
+    });
+
+    let toastTimeout;
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      const text = document.getElementById('toast-message');
+      text.innerText = msg;
+      toast.classList.remove('opacity-0');
+      toast.classList.add('opacity-100');
+
+      clearTimeout(toastTimeout);
+      toastTimeout = setTimeout(() => {
+        toast.classList.remove('opacity-100');
+        toast.classList.add('opacity-0');
+      }, 2000);
+    }
+
+    // Toggle Schedule Item Completion Checkbox
+    function toggleScheduleCheck(button) {
+      const icon = button.querySelector('i');
+      const card = button.closest('.schedule-card');
+      const title = card ? card.querySelector('.schedule-title') : null;
+      const isDarkCard = card && card.classList.contains('bg-slate-900');
+
+      const isChecked = !icon.classList.contains('hidden');
+
+      if (isChecked) {
+        // Uncheck
+        icon.classList.add('hidden');
+        button.classList.remove('bg-emerald-500', 'border-emerald-500');
+        if (isDarkCard) {
+          button.classList.add('border-slate-500');
+        } else {
+          button.classList.add('border-slate-300');
+        }
+        if (title) {
+          title.classList.remove('line-through', 'opacity-50');
+        }
+        if (card && !isDarkCard) {
+          card.classList.remove('opacity-60');
+        }
+        showToast('일정이 미완료로 변경되었습니다');
+      } else {
+        // Check
+        icon.classList.remove('hidden');
+        button.classList.remove('border-slate-300', 'border-slate-500');
+        button.classList.add('bg-emerald-500', 'border-emerald-500');
+        if (title) {
+          title.classList.add('line-through', 'opacity-50');
+        }
+        if (card && !isDarkCard) {
+          card.classList.add('opacity-60');
+        }
+        showToast('일정을 완료했습니다! 👍');
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      renderExpenses();
+      initAllRecommendations();
+    });
+  </script>
+</body>
+</html>
